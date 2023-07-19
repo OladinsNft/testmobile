@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply dark:bg-trueGray-900;
+  }
+  
+}
+@font-face {
+  font-family: Daydream;
+  src: url(../public/fonts/EarlyGameBoy.ttf);
+}
+.Daydream {
+  font-family: Daydream;
+}
