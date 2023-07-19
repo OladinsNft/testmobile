@@ -48,9 +48,9 @@ const faqdata = [
       "nfts2.me",
   },
   {
-    question: "Twitter ",
+    question: "Discord",
     answer:
-      "twitter.com",
+      "Soon..",
   },
 ];
 
