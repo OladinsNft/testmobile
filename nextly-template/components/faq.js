@@ -40,7 +40,7 @@ const faqdata = [
   },
   {
     question: "Price",
-    answer: "0.0077 Linea Eth",
+    answer: "0.00077 Linea Eth",
   },
   {
     question: "Mint Place",
