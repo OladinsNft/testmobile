@@ -27,7 +27,7 @@ const Home = () => {
       <SectionTitle
         pretitle="Linea Rocks Benefits"
         title=" Why should you be the member of Linea Rocks?">
-        We will work together with Linea Rocks to get whitelist to the best NFT projects on the Linea platform, work for Linea airdrop, and contribute to the development of the Linea network.
+        Linea Rocks will work together to get whitelist to the best NFT projects on the Linea platform, help you to get the Linea airdrop, and contribute to the development of the Linea network.
       </SectionTitle>
       <Benefits data={benefitOne} />
       
