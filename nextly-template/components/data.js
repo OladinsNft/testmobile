@@ -27,7 +27,7 @@ const benefitOne = {
     },
     {
       title: "TOKEN???",
-      desc: "We want to distribute tokens to our NFT holders to strengthen the ties of our DAO.",
+      desc: "We want to distribute tokens to our NFT holders to strengthen the ties of our DAO.$LRocks",
       icon: <CheckIcon />,
     },
   ],
