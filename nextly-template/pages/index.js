@@ -22,20 +22,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar />
-      <Hero />
-      <SectionTitle
-        pretitle="Linea Rocks Benefits"
-        title=" Why should you be the member of Linea Rocks?">
-        Linea Rocks will work together to get whitelist to the best NFT projects on the Linea platform, help you to get the Linea airdrop, and contribute to the development of the Linea network.
-      </SectionTitle>
-      <Benefits data={benefitOne} />
-      
-      
-      
-      <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-      </SectionTitle>
-      <Faq />
+     
       
       </div>
       
