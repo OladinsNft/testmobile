@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Container from "./container";
-import heroImg from "../public/img/7.png";
+
 
 const Hero = () => {
   return (
@@ -8,20 +8,20 @@ const Hero = () => {
       <Container className="flex flex-wrap ">
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
-            <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-              Linea Rocks
+            <h1 className="text-4xl  leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white" style={{color: '#e79b6b'}}>
+            1111 InjHallas ready to take over Injective Deserts!
             </h1>
-            <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-            Linea Rocks is the first community DAO on the Linea mainnet. Goal is to bring together developers, contributors, and loyal users within the Linea network.
+            <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl "style={{color: '#e79b6b'}}>
+            InjHallas is on a mission to get those precious oils from the Injective Deserts.We&apos;ll soon uncover the riches of Injective!
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
               <a
-                href="https://linearocks.nfts2.me/"
+                href="https://twitter.com/theinjhallas"
                 target="_blank"
                 rel="noopener"
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md ">
-                MINT
+                Twitter
               </a>
               
             </div>
@@ -30,13 +30,15 @@ const Hero = () => {
         <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="">
             <Image
-              src={heroImg}
+              src={"/img/injhallas_gif2.gif"}
               width="616"
               height="617"
-              className={"object-cover"}
+              className={"gif"}
               alt="Hero Illustration"
               loading="eager"
-              placeholder="blur"
+              border = "4px solid #d0d4f7"
+              border-radius = "10px"
+              
             />
           </div>
         </div>
