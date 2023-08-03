@@ -30,22 +30,19 @@ const Benefits = (props) => {
           }`}>
           <div>
             <div className="flex flex-col w-full mt-4">
-              <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
+              <h3 className="max-w-4xl mt-3 text-3xl font-bold leading-snug tracking-tight text-orange-300 lg:leading-tight lg:text-4xl dark:text-orange-300">
                 {data.title}
               </h3>
 
-              <p className="max-w-2xl py-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300">
+              <p className="max-w-6xl py-4 text-lg leading-normal text-orange-500 lg:text-xl xl:text-xl dark:text-orange-500">
                 {data.desc}
               </p>
             </div>
 
-            <div className="w-full mt-5">
-              {data.bullets.map((item, index) => (
-                <Benefit key={index} title={item.title} icon={item.icon}>
-                  {item.desc}
-                </Benefit>
-              ))}
-            </div>
+            <div className="Daydream" style={{  fontSize: '28px', color: '#e79b6b', display: 'flex', flexDirection: 'column', maxWidth: '600px', }}>
+        <p>We will create tight-knit
+DAO while having fun with our community games. Not only will we enjoy playing games but also contribute to Injective. We are with you with the P4R experience.</p>
+      </div>
           </div>
         </div>
       </Container>
