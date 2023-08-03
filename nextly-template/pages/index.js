@@ -12,7 +12,7 @@ import Faq from "../components/faq";
 const Home = () => {
   return (
     <>
-    <div className="Daydream"> 
+    <div className="about-background"> 
       <Head>
         <title >Linea Rocks</title>
         <meta
@@ -21,8 +21,9 @@ const Home = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-       <Navbar />
-     
+
+      <Navbar />
+      
       
       </div>
       
