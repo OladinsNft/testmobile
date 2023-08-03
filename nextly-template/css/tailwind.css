@@ -35,7 +35,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url("../public/img/injhallas_gif2 (1).gif");
+  background-image: url("../public/img/injhallas_gif2.gif");
   background-size: 100% 100%; /* Updated */
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -50,4 +50,11 @@
     background-size: cover; /* Adjust background size for mobile */
     /* Add any other specific styles for the About page on mobile here */
   }
+}
+.gif {
+  border: 4px solid #ffd3bb;
+  border-radius: 60px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: auto;
+  height: auto;
 }
