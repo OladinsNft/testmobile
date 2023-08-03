@@ -6,7 +6,7 @@
   html,
   body {
     @apply dark:bg-trueGray-900;
-    background-image: url("../public/img/injhallas_gif2 (1).gif");
+    background-image: url("../public/img/Main.png");
     background-size: 100% 100%; /* Updated */
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -15,7 +15,7 @@
 }
 @font-face {
   font-family: Daydream;
-  src: url(../public/fonts/EarlyGameBoy.ttf);
+  src: url(../public/fonts/superstar_memesbruh03.ttf);
 }
 .Daydream {
   font-family: Daydream;
@@ -28,6 +28,26 @@
 }
 
 
+.about-background {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../public/img/injhallas_gif2 (1).gif");
+  background-size: 100% 100%; /* Updated */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 60% 60%;
+  font-family: Daydream;
+  
+}
 
 
-
+@media (max-width: 640px) {
+  .about-background {
+    background-size: cover; /* Adjust background size for mobile */
+    /* Add any other specific styles for the About page on mobile here */
+  }
+}
