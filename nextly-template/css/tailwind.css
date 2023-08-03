@@ -23,7 +23,7 @@
 @media (max-width: 640px) {
   html,
   body {
-    background-size: auto;
+    background-size: auto 100%;
   }
 }
 
