@@ -21,6 +21,7 @@ const Navbar = () => {
     { name: 'About', href: '/about' },
     
     { name: 'Mint', href: 'https://injective.talis.art/' },
+    { name: 'Game', href: '/' },
   ];
   const [isHovered, setIsHovered] = useState(false);
 
@@ -84,7 +85,7 @@ const Navbar = () => {
         <a
           key={index}
           href={button.href}
-          className='class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">'
+          className='text-white  py-2 px-4 rounded-full">'
           style={{
             margin: '0 8px',
             padding: '10px 30px',
@@ -106,9 +107,7 @@ const Navbar = () => {
         </a>
         
       ))}
-                    <Link href="https://injective.talis.art/" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">         
-                        Mint
-                    </Link>
+                    
                   </>
                 </Disclosure.Panel>
               </div>
@@ -117,7 +116,7 @@ const Navbar = () => {
         </Disclosure>
 
         {/* menu  */}
-        <div className="hidden text-center lg:flex lg:items-center">
+        <div className="hidden text-center lg:flex lg:items-center ">
           
         </div>
 
@@ -127,7 +126,7 @@ const Navbar = () => {
         <a
           key={index}
           href={button.href}
-          className='class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">'
+          className='class=" text-white  py-2 px-4 rounded-full">'
           style={{
             margin: '0 8px',
             padding: '10px 30px',
@@ -150,9 +149,7 @@ const Navbar = () => {
         
       ))}
           </ul>
-          <Link href="https://injective.talis.art/" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
-              MINT
-          </Link>
+          
 
          
         </div>
